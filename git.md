@@ -88,5 +88,14 @@ git config --global user.name "John"
 
 집에서 다운받을 때
 
-9.gitclone + clone의 url -> 집에서 쥬피터 노트북 볼 수 있음.
+9.gitclone + clone의 url -> 집에서 쥬피터 노트북 볼 수 있음. ->없는 상태에서 다받는것
 
+10.touch readme.md -> 파일 생성
+
+cmd 창에서 .은 내위치 ..은 전폴더(desktop) .(파일명)은 숨김파일
+
+
+
+최신화
+
+git pull origin master
