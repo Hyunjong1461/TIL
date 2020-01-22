@@ -99,3 +99,11 @@ cmd 창에서 .은 내위치 ..은 전폴더(desktop) .(파일명)은 숨김파�
 최신화
 
 git pull origin master
+
+
+
+git remote -v : 저장되는 git의 목록을 볼 수 있음
+
+git remote add (주소창의 이름) (url) : git 추가
+
+git push github master -> github에 올린다/
