@@ -45,13 +45,13 @@ $ git status스테이지에 올리기
 3.스테이지에 올리기
 
 ```sh
-$git add 파일명
+$git add .
 ```
 
 4.커밋하기(사진찍기)
 
 ```sh
-$git commit -m '메세지'
+$git commit -m '메세지'(m은 옵션)
 ```
 
 5.로그 기록 확인하기
@@ -60,7 +60,7 @@ $git commit -m '메세지'
 $git log
 ```
 
-6.리모트(원격 저장소)등록하기
+6.리모트(원격 저장소)등록하기(파이선 폴더랑 깃과 연결시켜줌)
 
 ```sh
 $git remote add origin 원격저장소 주소
@@ -75,4 +75,18 @@ git push-> git 로그인이 됨
 ```sh
 $git push origin master
 ```
+
+ ```sh
+git config --global user.name "John"
+ ```
+
+내 이름을 알려줄 때. 모든 디렉토리에서 컨피그 없이 한 유저 이름으로 쓸 수 있음.
+
+8.gitignore
+
+
+
+집에서 다운받을 때
+
+9.gitclone + clone의 url -> 집에서 쥬피터 노트북 볼 수 있음.
 
